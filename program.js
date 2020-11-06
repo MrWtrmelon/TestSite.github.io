@@ -34,3 +34,6 @@ var fullName2 = Object.create(fullName); //Uses the Object from the previous exa
 	fullName2.firstName = 'Hayden';
 document.writeln(fullName2.firstName + ' ' + fullName2.lastName);
 
+//Test for coding on Github because babymode
+document.writeln('Dab on that Hello World!")
+
