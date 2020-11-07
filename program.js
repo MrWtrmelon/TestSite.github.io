@@ -36,3 +36,16 @@ document.writeln(fullName2.firstName + ' ' + fullName2.lastName);
 
 //Test for coding on Github because babymode
 document.writeln('Dab on that Hello World!');
+
+//Misc stuff that I dont totally understand
+    //Button
+	// 1. Create the button
+	var button = document.createElement("button");
+	button.innerHTML = "Click here for free money";
+	// 2. Append somewhere
+	var body = document.getElementsByTagName("body")[0];
+	body.appendChild(button);
+	// 3. Add event handler
+	button.addEventListener ("click", function() {
+	  alert("Here's a penny!");
+	});
