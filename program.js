@@ -36,6 +36,7 @@ document.writeln(fullName2.firstName + ' ' + fullName2.lastName);
 
 //Test for coding on Github because babymode
 document.writeln('Dab on that Hello World!');
+document.writeln('Phone coding?');
 
 //Misc stuff that I dont totally understand
     //Button
